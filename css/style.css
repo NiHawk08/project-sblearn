@@ -29,7 +29,6 @@ body{
 .container{
     width: 80rem;
     /* max-width: 960px; */
-    height: 500px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 2rem;
@@ -168,13 +167,14 @@ main{
 .container-arts{
     display: flex;
     justify-content: center;
+    margin: 3.5rem 0;
 }
 
 .comments{
     background-color: #2F5BEA;
-    padding: 8rem 0;
+    padding: 5rem 0;
     width: 100%;
-    margin-top: 15rem;
+    margin-top: 1rem;
 }
 
 .comments_title{
@@ -185,8 +185,8 @@ main{
 
 .comments_art{
     margin: 1rem;
-    flex-basis: 25%;
-    height: 17rem;
+    flex-basis: 20rem;
+    min-height: 18rem;
     border-radius: 0.4rem;
     background-color: #fff;
 }
